@@ -319,10 +319,10 @@ cat > "${config_dir}" << EOF
       "type": "hysteria2",
       "tag": "hysteria2",
       "listen": "::",
-      "listen_port": $hy2_port,
+      "listen_port": 25590,
       "users": [
         {
-          "password": "$uuid"
+          "password": "ee2fc87a-9e6e-4aa5-b051-4176903b2e72"
         }
       ],
       "ignore_client_bandwidth": false,
